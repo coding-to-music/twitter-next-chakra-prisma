@@ -1,3 +1,50 @@
+# twitter-next-chakra-prisma
+
+# 🚀 Javascript full-stack 🚀
+
+https://github.com/coding-to-music/twitter-next-chakra-prisma
+
+https://twitter-next-chakra-prisma.vercel.app
+
+By Tom Dohnal https://github.com/tomdohnal
+
+https://twitterfomo.dev/
+
+https://github.com/tomdohnal/twitter-fomo
+
+## Environment Values
+
+```java
+            src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GA_TRACKING_ID}`}
+  apiKey: process.env.MAILCHIMP_API_KEY,
+if (process.env.NEXT_PUBLIC_SENTRY_DSN) {
+  await fetch(`https://api.vercel.com/v1/integrations/deploy/${process.env.DEPLOY_HOOK_KEY}`, {
+      consumer_key: process.env.TWITTER_CONSUMER_KEY || '',
+  NEXT_PUBLIC_SENTRY_DSN: SENTRY_DSN,
+  SENTRY_ORG,
+  SENTRY_PROJECT,
+  SENTRY_AUTH_TOKEN,
+  NODE_ENV,
+  VERCEL_GITHUB_COMMIT_SHA,
+
+```
+
+## GitHub
+
+```java
+git init
+git add .
+git remote remove origin
+git commit -m "first commit"
+git branch -M main
+git remote add origin git@github.com:coding-to-music/twitter-next-chakra-prisma.git
+git push -u origin main
+vercel --prod --confirm
+
+# vercel env add
+```
+
+
 # [TwitterFOMO.dev](https://twitterfomo.dev)—Best WebDev Tweets
 Top webdev tweets. See the most liked tweets in webdev. No mindless scrolling.
 
