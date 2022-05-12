@@ -1,5 +1,7 @@
 # twitter-next-chakra-prisma
 
+Prisma Twitter Cron Postgres Sentry Google Analytics Mailchimp Chakra
+
 # 🚀 Javascript full-stack 🚀
 
 https://github.com/coding-to-music/twitter-next-chakra-prisma
@@ -28,6 +30,10 @@ SENTRY_AUTH_TOKEN=""
 
 VERCEL_GITHUB_COMMIT_SHA=""
 DEPLOY_HOOK_KEY=""
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
 
 ```
 

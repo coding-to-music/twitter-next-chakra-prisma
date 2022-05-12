@@ -23,8 +23,7 @@
     "deploy": "git add . && git commit -m Build && git push && vercel --prod"
   },
   "engines": {
-    "node": ">=12.14.0",
-    "yarn": ">=1.22.4"
+    "node": "16"
   },
   "dependencies": {
     "@chakra-ui/core": "^1.0.0-rc.8",
