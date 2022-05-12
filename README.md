@@ -15,17 +15,19 @@ https://github.com/tomdohnal/twitter-fomo
 ## Environment Values
 
 ```java
-            src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GA_TRACKING_ID}`}
-  apiKey: process.env.MAILCHIMP_API_KEY,
-if (process.env.NEXT_PUBLIC_SENTRY_DSN) {
-  await fetch(`https://api.vercel.com/v1/integrations/deploy/${process.env.DEPLOY_HOOK_KEY}`, {
-      consumer_key: process.env.TWITTER_CONSUMER_KEY || '',
-  NEXT_PUBLIC_SENTRY_DSN: SENTRY_DSN,
-  SENTRY_ORG,
-  SENTRY_PROJECT,
-  SENTRY_AUTH_TOKEN,
-  NODE_ENV,
-  VERCEL_GITHUB_COMMIT_SHA,
+MAILCHIMP_API_KEY=""
+
+NEXT_PUBLIC_GA_TRACKING_ID=""
+
+TWITTER_CONSUMER_KEY=""
+
+SENTRY_DSN=""
+SENTRY_ORG=""
+SENTRY_PROJECT=""
+SENTRY_AUTH_TOKEN=""
+
+VERCEL_GITHUB_COMMIT_SHA=""
+DEPLOY_HOOK_KEY=""
 
 ```
 
