@@ -54,6 +54,28 @@ vercel --prod --confirm
 # vercel env add
 ```
 
+## Build Errors
+
+```java
+ready - started server on http://localhost:3000
+> [PWA] PWA support is disabled
+> [PWA] PWA support is disabled
+event - compiled successfully
+event - build page: /
+wait  - compiling...
+event - compiled successfully
+(node:92072) [DEP0111] DeprecationWarning: Access to process.binding('http_parser') is deprecated.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+node[92072]: ../src/node_http_parser.cc:567:static void node::{anonymous}::Parser::Initialize(const v8::FunctionCallbackInfo<v8::Value>&): Assertion `args[3]->IsInt32()' failed.
+ 1: 0xb09980 node::Abort() [node]
+ 2: 0xb099fe  [node]
+ 3: 0xb212c2  [node]
+ 4: 0xd53d8e  [node]
+ 5: 0xd551af v8::internal::Builtin_HandleApiCall(int, unsigned long*, v8::internal::Isolate*) [node]
+ 6: 0x15f0bf9  [node]
+Aborted (core dumped)
+```
+
 # [TwitterFOMO.dev](https://twitterfomo.dev)—Best WebDev Tweets
 
 Top webdev tweets. See the most liked tweets in webdev. No mindless scrolling.
